@@ -1,0 +1,63 @@
+## before restart
+{"accepted":1,"quarantined":0}
+5
+## docker restart lt-redis
+loading:0
+async_loading:0
+aof_enabled:1
+## after restart
+{"error":"event store unavailable, retry","detail":"ConnectionError"}
+{'applied': 1, 'redis_errors': 3}
+5
+2026-10-02 15:20:40.232 | WARNING  | __main__:consume:169 - consume: ConnectionError: Connection closed by server.
+## client retry of event 2 (App behaviour after a 503)
+{"accepted":1,"quarantined":0}
+{"accepted":1,"quarantined":0}
+{'applied': 2, 'redis_errors': 4}
+watch_minutes=10
+1
+{'applied': 2, 'redis_errors': 4} {'paying_users': 0, 'trigger_pending': 0, 'stream_pending': 0, 'stream_lag': 0, 'stream_len': 38, 'redis_used_memory_mb': 1.5}
+ctx:{restart1790954436} watch_minutes=10
+name
+ctx
+consumers
+1
+pending
+0
+last-delivered-id
+1790954453456-0
+entries-read
+38
+lag
+0
+Main  2026-10-02 15:20:32 +0000 INFO: Worker ready [1]
+2026-10-02 15:20:40.232 | WARNING  | __main__:consume:169 - consume: ConnectionError: Connection closed by server.
+2026-10-02 15:20:40.237 | WARNING  | __main__:timeouts:241 - timeouts: Connection closed by server.
+2026-10-02 15:20:42.217 | WARNING  | __main__:autoclaim:198 - autoclaim: Connection closed by server.
+2026-10-02 15:20:53.376 | WARNING  | __main__:consume:169 - consume: NoScriptError: No matching script.
+
+######## after fix: XACK moved into the apply script
+## before restart
+{"accepted":1,"quarantined":0}
+watch_minutes=5
+## docker restart lt-redis
+## after restart (App retries a 503)
+2 {"error":"event store unavailable, retry","detail":"ConnectionError"}
+2 retry {"accepted":1,"quarantined":0}
+3 {"accepted":1,"quarantined":0}
+4 {"accepted":1,"quarantined":0}
+{'applied': 4, 'apply_errors': 1, 'batches': 3, 'gauge_errors': 1, 'redis_errors': 3} {'stream_pending': 0, 'stream_lag': 0}
+watch_minutes=20
+noscript log lines: 1
+
+######## glide hot path + XACK in script + collector Lua batch XADD: restart test
+## before restart
+{"accepted":1,"quarantined":0}
+## after restart (App retries a 503)
+2 {"error":"event store unavailable, retry","detail":"ConnectionError"}
+2 retry {"accepted":1,"quarantined":0}
+3 {"accepted":1,"quarantined":0}
+4 {"accepted":1,"quarantined":0}
+{'applied': 4, 'apply_errors': 1, 'batches': 3, 'redis_errors': 4} {'stream_pending': 0, 'stream_lag': 0}
+{'accepted': 4, 'batches': 4, 'quarantined': 0, 'redis_unavailable': 1}
+watch_minutes=20

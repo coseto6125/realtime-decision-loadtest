@@ -1,0 +1,4 @@
+## collector log (first 20 store errors)
+collector counters {'accepted': 4800, 'batches': 4800, 'quarantined': 0}
+{}
+    http_req_failed................: 0.00%  0 out of 4800

@@ -1,0 +1,16 @@
+k,v
+wal_bytes,36542
+wal_records,8
+wal_fpi,6
+checkpoints_timed,0
+checkpoints_requested,0
+checkpoint_buffers_written,0
+xact_commit,556
+autovacuum_runs,0
+seq_scan_decisions,0
+seq_scan_entitlements,0
+seq_scan_outbox,162
+seq_scan_contact_log,0
+seq_scan_next_day_jobs,162
+seq_scan_policies,0
+seq_scan_payments,0

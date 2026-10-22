@@ -1,0 +1,1 @@
+{"service":"lt-collector","since_s":253.2,"latency_ms":{"http POST /events 2xx":{"count":15038,"p50":0.691,"p95":1.638,"p99":2.837,"max":17.693,"mean":0.805}},"counters":{"accepted":133834,"batches":15038,"quarantined":0},"gauges":{},"cpu_s":9.886,"cpu_s_total":10.787,"maxrss_mb":49.7,"rss_mb":50.0}

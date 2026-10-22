@@ -1,0 +1,24 @@
+before
+13546416,1810
+0,1
+usage_usec 1564340
+pgbench (18.6 (Debian 18.6-1.pgdg13+2))
+transaction type: /bench/pgbench_decide.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 8
+number of threads: 2
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 96384
+number of failed transactions: 0 (0.000%)
+latency average = 4.978 ms
+initial connection time = 51.185 ms
+tps = 1607.119775 (without initial connection time)
+statement latencies in milliseconds and failures:
+         0.001           0 \set n random(1, 1000000000000)
+         0.000           0 \set uid random(1, 50000)
+         0.653           0 SELECT body FROM decisions WHERE event_id = 'pgb-' || :client_id || '-' || :n;
+         4.311           0 WITH d AS (INSERT INTO decisions (policy_version, top_p, event_id, user_id, trigger, arm, action, reason, model_status, top_int
+after docker exec lt-pg psql -U lt -d lt -AtF, -c SELECT wal_bytes, wal_fpi FROM pg_stat_wal -c SELECT num_timed, num_requested FROM pg_stat_checkpointer
+usage_usec 61258974

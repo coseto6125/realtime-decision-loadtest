@@ -1,0 +1,57 @@
+{
+ "run": "t3_dual_scheduler-1790962241",
+ "profile": "constant",
+ "duration_s": 236.3,
+ "client_latency_ms": {
+  "events": {
+   "count": 3162,
+   "avg": 41.51,
+   "p50": 39.2,
+   "p95": 73.93,
+   "p99": 75.86,
+   "max": 82.64
+  },
+  "decide": {
+   "count": 3094,
+   "avg": 61.89,
+   "p50": 42.25,
+   "p95": 126.56,
+   "p99": 190.2,
+   "max": 195.52
+  },
+  "webhook": {
+   "count": 274,
+   "avg": 68.86,
+   "p50": 80.01,
+   "p95": 82.73,
+   "p99": 84.18,
+   "max": 86.09
+  }
+ },
+ "error_pct": {
+  "events": 0,
+  "decide": 0,
+  "webhook": 0,
+  "any": 0
+ },
+ "counts": {
+  "iterations": 954,
+  "dropped_iterations": 0,
+  "events_sent": 27889,
+  "events_lost": 0,
+  "events_retried": 0,
+  "decisions": 3094,
+  "webhooks": 274,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 6530
+ },
+ "rates_per_s": {
+  "events": 118,
+  "decisions": 13.1,
+  "http_reqs": 27.6
+ },
+ "thresholds_failed": []
+}

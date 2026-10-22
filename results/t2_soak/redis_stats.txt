@@ -1,0 +1,48 @@
+# Commandstats
+cmdstat_pexpire:calls=1687422,usec=911289,usec_per_call=0.54,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=733,usec=5030,usec_per_call=6.86,rejected_calls=0,failed_calls=0
+cmdstat_hgetall:calls=63560,usec=418749,usec_per_call=6.59,rejected_calls=0,failed_calls=0
+cmdstat_lpush:calls=562474,usec=994350,usec_per_call=1.77,rejected_calls=0,failed_calls=0
+cmdstat_config|resetstat:calls=1,usec=107,usec_per_call=107.00,rejected_calls=0,failed_calls=0
+cmdstat_client|setinfo:calls=28,usec=16,usec_per_call=0.57,rejected_calls=0,failed_calls=0
+cmdstat_hget:calls=567741,usec=245827,usec_per_call=0.43,rejected_calls=0,failed_calls=0
+cmdstat_hsetnx:calls=38162,usec=30036,usec_per_call=0.79,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=1804,usec=1731,usec_per_call=0.96,rejected_calls=0,failed_calls=0
+cmdstat_hmget:calls=1881,usec=1812,usec_per_call=0.96,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=733,usec=28674,usec_per_call=39.12,rejected_calls=0,failed_calls=0
+cmdstat_lrange:calls=63560,usec=174050,usec_per_call=2.74,rejected_calls=0,failed_calls=0
+cmdstat_set:calls=14937,usec=130886,usec_per_call=8.76,rejected_calls=0,failed_calls=0
+cmdstat_xadd:calls=562474,usec=1877109,usec_per_call=3.34,rejected_calls=0,failed_calls=0
+cmdstat_xlen:calls=733,usec=347,usec_per_call=0.47,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=569624,usec=137866,usec_per_call=0.24,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=733,usec=10373,usec_per_call=14.15,rejected_calls=0,failed_calls=0
+cmdstat_ltrim:calls=562474,usec=181843,usec_per_call=0.32,rejected_calls=0,failed_calls=0
+cmdstat_hello:calls=14,usec=66,usec_per_call=4.71,rejected_calls=0,failed_calls=0
+cmdstat_zrem:calls=16601,usec=32388,usec_per_call=1.95,rejected_calls=0,failed_calls=0
+cmdstat_evalsha:calls=627244,usec=24223996,usec_per_call=38.62,rejected_calls=0,failed_calls=0
+cmdstat_zscore:calls=564355,usec=634922,usec_per_call=1.13,rejected_calls=0,failed_calls=0
+cmdstat_zrangebyscore:calls=7150,usec=43449,usec_per_call=6.08,rejected_calls=0,failed_calls=0
+cmdstat_hincrby:calls=438863,usec=323925,usec_per_call=0.74,rejected_calls=0,failed_calls=0
+cmdstat_xack:calls=562474,usec=598016,usec_per_call=1.06,rejected_calls=0,failed_calls=0
+cmdstat_zadd:calls=573825,usec=1456841,usec_per_call=2.54,rejected_calls=0,failed_calls=0
+cmdstat_hset:calls=1269561,usec=771315,usec_per_call=0.61,rejected_calls=0,failed_calls=0
+cmdstat_zremrangebyrank:calls=110,usec=93,usec_per_call=0.85,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=68110,usec=2635219,usec_per_call=38.69,rejected_calls=0,failed_calls=0
+used_memory:170316440
+used_memory_rss:181309440
+mem_fragmentation_ratio:1.06
+## SLOWLOG
+
+## LATENCY DOCTOR
+Latency spikes are observed in this Valkey instance.
+
+1. fork: 6 latency spikes (average 6ms, mean deviation 0ms, period 217.33 sec). Worst all time event 9ms. Fork rate is 22.69 GB/sec (poor).
+2. aof-write: 1 latency spikes (average 13ms, mean deviation 0ms, period 3472.00 sec). Worst all time event 13ms.
+3. aof-write-alone: 1 latency spikes (average 13ms, mean deviation 0ms, period 3472.00 sec). Worst all time event 13ms.
+
+Here is some advice for you:
+
+- If you are using a virtual machine, consider upgrading it with a faster one using a hypervisior that provides less latency during fork() calls. Xen is known to have poor fork() performance. Even in the context of the same VM provider, certain kinds of instances can execute fork faster than others.
+- It is strongly advised to use local disks for persistence, especially if you are using AOF. Remote disks provided by platform-as-a-service providers are known to be slow.
+- SSD disks are able to reduce fsync latency, and total time needed for snapshotting and AOF log rewriting (resulting in smaller memory usage). With extremely high write load SSD disks can be a good option. However Valkey should perform reasonably with high load using normal disks. Use this advice as a last resort.
+- Mounting ext3/4 filesystems with data=writeback can provide a performance boost compared to data=ordered, however this mode of operation provides less guarantees, and sometimes it can happen that after a hard crash the AOF file will have a half-written command at the end and will require to be repaired before Valkey restarts.

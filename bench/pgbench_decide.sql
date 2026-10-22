@@ -1,0 +1,4 @@
+\set n random(1, 1000000000000)
+\set uid random(1, 50000)
+SELECT body FROM decisions WHERE event_id = 'pgb-' || :client_id || '-' || :n;
+WITH d AS (INSERT INTO decisions (policy_version, top_p, event_id, user_id, trigger, arm, action, reason, model_status, top_intent, body) VALUES (1, 0.5, 'pgb-' || :client_id || '-' || :n, 'u' || :uid, 'abandonment', 'model', 'small_plan_hint', 'model_price', 'ok', 'price_sensitive', '\x9c01'::bytea) ON CONFLICT (event_id) DO NOTHING RETURNING id, user_id), o AS (INSERT INTO outbox (decision_id, user_id, action, payload) SELECT id, user_id, 'small_plan_hint', '\x9c01'::bytea FROM d RETURNING id), j AS (INSERT INTO next_day_jobs (decision_id, abandoned_at, due_at, user_id, arm) SELECT id, now(), now() + interval '1 day', user_id, 'model' FROM d RETURNING id) SELECT (SELECT id FROM d);

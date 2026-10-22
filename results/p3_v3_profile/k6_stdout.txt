@@ -1,0 +1,57 @@
+{
+ "run": "p3_v3_profile-1790958481",
+ "profile": "constant",
+ "duration_s": 243.7,
+ "client_latency_ms": {
+  "events": {
+   "count": 3153,
+   "avg": 42.43,
+   "p50": 39.6,
+   "p95": 73.84,
+   "p99": 77.72,
+   "max": 122.31
+  },
+  "decide": {
+   "count": 3092,
+   "avg": 62.58,
+   "p50": 43.52,
+   "p95": 127.66,
+   "p99": 187.07,
+   "max": 195.7
+  },
+  "webhook": {
+   "count": 249,
+   "avg": 71.79,
+   "p50": 80.53,
+   "p95": 86.22,
+   "p99": 88.13,
+   "max": 95.75
+  }
+ },
+ "error_pct": {
+  "events": 0,
+  "decide": 0,
+  "webhook": 0,
+  "any": 0
+ },
+ "counts": {
+  "iterations": 955,
+  "dropped_iterations": 0,
+  "events_sent": 27856,
+  "events_lost": 0,
+  "events_retried": 0,
+  "decisions": 3092,
+  "webhooks": 249,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 6494
+ },
+ "rates_per_s": {
+  "events": 114.3,
+  "decisions": 12.7,
+  "http_reqs": 26.7
+ },
+ "thresholds_failed": []
+}

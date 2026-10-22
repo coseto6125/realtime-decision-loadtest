@@ -1,0 +1,7 @@
+# Overlay for T1-R: swap lt-collector for the Rust reference collector, same port, cpuset, cpus and memory.
+# Use: -f compose.yaml -f compose.rust.yaml
+services:
+  lt-collector:
+    image: lt-collector-rs:1
+    command: !reset []
+    environment: { REDIS_POOL: "2", TOKIO_WORKERS: "1" }

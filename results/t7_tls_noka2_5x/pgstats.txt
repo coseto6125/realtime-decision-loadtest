@@ -1,0 +1,76 @@
+## pg_stat_statements top 15 by total time
+ calls | total_ms | mean_ms | stddev_ms | rows  | shared_blks_hit | shared_blks_read |                                                     query                                                      
+-------+----------+---------+-----------+-------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------
+ 15191 |   2873.7 |   0.189 |     0.129 | 15191 |          337296 |               13 | WITH d AS (INSERT INTO decisions (policy_version, top_p, event_id, user_id, trigger, arm, action, reason, mode
+ 15191 |    298.1 |   0.020 |     0.025 |     0 |           33524 |                0 | SELECT body FROM decisions WHERE event_id = $1
+  1302 |    172.0 |   0.132 |     0.070 |  1302 |           20209 |               61 | WITH ins AS (INSERT INTO payments (provider, txn_id, user_id, amount, currency, paid_at, verified) VALUES ($1,
+   126 |    142.2 |   1.128 |     1.210 |  9444 |          139932 |                0 | WITH s AS (SELECT id FROM outbox WHERE status = $1 ORDER BY id LIMIT $2 FOR UPDATE SKIP LOCKED) UPDATE outbox 
+  1302 |    114.3 |   0.088 |     0.064 |  1302 |           18287 |                0 | UPDATE payments SET emitted = $2 WHERE id = ANY($1::bigint[])
+   543 |    106.9 |   0.197 |     0.100 |   543 |           22147 |                0 | WITH c AS (INSERT INTO contact_log (user_id, day, channel) VALUES ($1, $2, $8) ON CONFLICT (user_id, day) DO N
+  1207 |     81.8 |   0.068 |     0.038 |  1207 |           14082 |                0 | UPDATE next_day_jobs SET status = $4, result = $2, processed_by = $3, processed_at = now(), attempts = attempt
+   794 |     20.0 |   0.025 |     0.012 |   794 |            4764 |                6 | SELECT (SELECT count(*) FROM payments WHERE user_id = $1 AND created_at >= $2) AS paid_after, (SELECT count(*)
+  2096 |     14.9 |   0.007 |     0.009 |  2096 |               0 |                0 | SELECT pg_advisory_xact_lock(hashtext($1::text))
+   126 |     10.7 |   0.085 |     0.040 |   126 |           10202 |                0 | SELECT (SELECT count(*) FROM next_day_jobs WHERE status = 'due' AND due_at <= now()) AS due, (SELECT count(*) 
+   126 |      6.1 |   0.048 |     0.020 |  1207 |            2534 |                0 | SELECT id, user_id, arm, abandoned_at FROM next_day_jobs WHERE status = 'due' AND due_at <= now() ORDER BY due
+    17 |      4.8 |   0.280 |     0.247 |    17 |             707 |                4 | WITH c AS (INSERT INTO contact_log (user_id, day, channel) VALUES ($1, $2, $8) ON CONFLICT (user_id, day) DO N
+    85 |      2.8 |   0.033 |     0.021 |     0 |            1283 |                0 | SELECT id, provider, txn_id, user_id, amount FROM payments WHERE NOT emitted AND created_at < now() - interval
+    53 |      2.3 |   0.043 |     0.013 |   212 |              95 |                0 | SELECT DISTINCT ON (trigger) trigger, version, salt, arms, threshold, options, question FROM policies WHERE ac
+  1428 |      1.8 |   0.001 |     0.002 |     0 |               0 |                0 | START TRANSACTION
+
+## pg_stat_wal
+ wal_records | wal_fpi | wal_bytes | wal_buffers_full |          stats_reset          
+-------------+---------+-----------+------------------+-------------------------------
+      224529 |      98 |  25147673 |                0 | 2026-10-02 19:30:56.777979+00
+
+## pg_stat_checkpointer
+ num_timed | num_requested | write_time | sync_time | buffers_written |          stats_reset          
+-----------+---------------+------------+-----------+-----------------+-------------------------------
+         0 |             0 |          0 |         0 |               0 | 2026-10-02 19:30:56.778185+00
+
+## pg_stat_io (client backends and autovacuum, non-zero)
+   backend_type    |  object  | context | reads | writes | extends | fsyncs |  hits  | write_ms 
+-------------------+----------+---------+-------+--------+---------+--------+--------+----------
+ autovacuum worker | relation | normal  |     7 |      0 |      24 |      0 |  39730 |      0.0
+ autovacuum worker | relation | vacuum  |     3 |      0 |       0 |        |  18384 |      0.0
+ autovacuum worker | wal      | normal  |       |     71 |         |     71 |        |      0.0
+ client backend    | relation | normal  |   133 |      0 |    1764 |      0 | 648560 |      0.0
+ client backend    | wal      | init    |       |      1 |         |      1 |        |      0.0
+ client backend    | wal      | normal  |     0 |  17929 |         |  17929 |        |      0.0
+ walwriter         | wal      | normal  |       |     46 |         |     42 |        |      0.0
+
+## pg_stat_user_tables
+    relname    | seq_scan | idx_scan | n_tup_ins | n_tup_upd | n_tup_hot_upd | hot_pct | n_live_tup | n_dead_tup | autovacuum_count | autoanalyze_count | total_size 
+---------------+----------+----------+-----------+-----------+---------------+---------+------------+------------+------------------+-------------------+------------
+ contact_log   |        0 |      560 |       560 |         0 |             0 |         |        560 |          0 |                0 |                 6 | 144 kB
+ decisions     |      468 |    40009 |     15191 |         0 |             0 |         |      15227 |          0 |                8 |                18 | 7728 kB
+ entitlements  |      463 |     2247 |       560 |       114 |             0 |     0.0 |        560 |        114 |                0 |                 7 | 256 kB
+ next_day_jobs |       33 |     2546 |      1207 |      1207 |             0 |     0.0 |       1207 |         43 |               17 |                19 | 360 kB
+ outbox        |       14 |     9502 |      9444 |      9444 |             0 |     0.0 |       9254 |         75 |               20 |                19 | 5216 kB
+ payments      |        0 |     4595 |      1302 |      1302 |             0 |     0.0 |      11302 |       1303 |                0 |                 2 | 3280 kB
+ policies      |       53 |        0 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 32 kB
+
+## pg_stat_user_indexes
+    relname    |           indexrelname            | idx_scan | idx_tup_read |  size   
+---------------+-----------------------------------+----------+--------------+---------
+ contact_log   | contact_log_pkey                  |        0 |            0 | 32 kB
+ contact_log   | contact_log_user_id_day_key       |      560 |            0 | 40 kB
+ decisions     | decisions_created_brin            |        0 |            0 | 24 kB
+ decisions     | decisions_event_id_key            |    30133 |            0 | 1320 kB
+ decisions     | decisions_pkey                    |     9876 |         9876 | 352 kB
+ entitlements  | entitlements_job                  |        0 |            0 | 32 kB
+ entitlements  | entitlements_payment              |        0 |            0 | 16 kB
+ entitlements  | entitlements_pkey                 |        0 |            0 | 32 kB
+ entitlements  | entitlements_user_id_campaign_key |     2247 |          167 | 56 kB
+ next_day_jobs | next_day_jobs_decision_id_key     |        0 |            0 | 48 kB
+ next_day_jobs | next_day_jobs_due                 |      219 |         2424 | 16 kB
+ next_day_jobs | next_day_jobs_pkey                |     2327 |         2327 | 48 kB
+ outbox        | outbox_decision                   |        0 |            0 | 448 kB
+ outbox        | outbox_job                        |        0 |            0 | 144 kB
+ outbox        | outbox_pending                    |      243 |        18929 | 16 kB
+ outbox        | outbox_pkey                       |     9259 |         9259 | 360 kB
+ payments      | payments_pkey                     |     1416 |         1416 | 288 kB
+ payments      | payments_provider_txn_id_key      |     1302 |            0 | 744 kB
+ payments      | payments_unemitted                |       85 |         1277 | 16 kB
+ payments      | payments_user                     |     1792 |          374 | 560 kB
+ policies      | policies_pkey                     |        0 |            0 | 16 kB
+

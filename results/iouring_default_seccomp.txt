@@ -1,0 +1,4 @@
+waiting for server to start....2026-10-02 15:23:12.914 UTC [51] FATAL:  could not setup io_uring queue: Operation not permitted
+2026-10-02 15:23:12.914 UTC [51] HINT:  Check if io_uring is disabled via /proc/sys/kernel/io_uring_disabled.
+exited exit=1
+0

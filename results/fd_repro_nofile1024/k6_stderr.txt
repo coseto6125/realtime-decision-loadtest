@@ -1,0 +1,1140 @@
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46688-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46864-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46856-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46842-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46826-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46810-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46794-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46784-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46772-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46756-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46748-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46734-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46720-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46714-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46704-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:46700-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51910-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51898-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51876-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51866-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51850-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51844-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51830-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51816-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51814-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51810-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51796-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51782-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51768-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51742-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51738-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51734-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51718-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51700-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51684-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51670-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51660-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51640-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51638-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51622-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51602-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51592-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51580-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51568-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51552-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51538-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51528-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51516-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51504-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51492-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51476-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51464-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51448-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:08Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51446-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:57168-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:57538-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:57628-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:57670-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:57732-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:57810-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58098-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58322-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58478-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58482-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58516-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58638-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58680-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58716-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58772-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58808-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58828-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58854-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58892-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58894-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58928-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:58984-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59208-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=http: server closed idle connection code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59382-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59404-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59442-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59502-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59686-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59742-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59814-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:59830-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:60186-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:18Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:18Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50200-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50226-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50298-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50634-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50712-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=http: server closed idle connection code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50904-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:50938-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=http: server closed idle connection code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=http: server closed idle connection code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=http: server closed idle connection code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51276-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": http: server closed idle connection"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=http: server closed idle connection code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:28Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:28Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": read tcp <container-ip>:51708-><container-ip>:8000: read: connection reset by peer"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=read: connection reset by peer code=1220" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console
+time="2026-10-02T18:32:29Z" level=warning msg="Request Failed" error="Post \"http://lt-collector:8000/events\": EOF"
+time="2026-10-02T18:32:29Z" level=warning msg="status=0 error=EOF code=1000" source=console

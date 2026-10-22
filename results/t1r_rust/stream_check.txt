@@ -1,0 +1,13 @@
+46957
+name
+ctx
+consumers
+1
+pending
+0
+last-delivered-id
+1790960178207-1
+entries-read
+46957
+lag
+0

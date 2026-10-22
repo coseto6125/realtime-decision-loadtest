@@ -1,0 +1,14 @@
+{
+ "duration_s": 262.055428518,
+ "requests": 225315,
+ "events": 2253150,
+ "p50": 19.175841,
+ "p95": 506.8145629999997,
+ "p99": 808.434807,
+ "max": 10007.168287,
+ "error_pct": 0.10829283447617778,
+ "dropped_iterations": 15697,
+ "aborted_by_threshold": [
+  "t_events"
+ ]
+}

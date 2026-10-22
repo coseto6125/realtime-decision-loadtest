@@ -1,0 +1,57 @@
+{
+ "run": "p2_granian-1790956579",
+ "profile": "constant",
+ "duration_s": 245.7,
+ "client_latency_ms": {
+  "events": {
+   "count": 3141,
+   "avg": 43.28,
+   "p50": 40.17,
+   "p95": 75.91,
+   "p99": 77.58,
+   "max": 88.3
+  },
+  "decide": {
+   "count": 3075,
+   "avg": 63.52,
+   "p50": 43.63,
+   "p95": 127.03,
+   "p99": 185.7,
+   "max": 197.17
+  },
+  "webhook": {
+   "count": 275,
+   "avg": 70.59,
+   "p50": 80.27,
+   "p95": 84.23,
+   "p99": 88.92,
+   "max": 97.7
+  }
+ },
+ "error_pct": {
+  "events": 0,
+  "decide": 0,
+  "webhook": 0,
+  "any": 0
+ },
+ "counts": {
+  "iterations": 955,
+  "dropped_iterations": 0,
+  "events_sent": 27883,
+  "events_lost": 0,
+  "events_retried": 0,
+  "decisions": 3075,
+  "webhooks": 275,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 6491
+ },
+ "rates_per_s": {
+  "events": 113.5,
+  "decisions": 12.5,
+  "http_reqs": 26.4
+ },
+ "thresholds_failed": []
+}

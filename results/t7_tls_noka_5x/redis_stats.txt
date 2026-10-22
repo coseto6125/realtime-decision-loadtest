@@ -1,0 +1,36 @@
+# Commandstats
+cmdstat_set:calls=3692,usec=26408,usec_per_call=7.15,rejected_calls=0,failed_calls=0
+cmdstat_hget:calls=136128,usec=55140,usec_per_call=0.41,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=135339,usec=29265,usec_per_call=0.22,rejected_calls=0,failed_calls=0
+cmdstat_zrem:calls=4035,usec=7533,usec_per_call=1.87,rejected_calls=0,failed_calls=0
+cmdstat_xadd:calls=134859,usec=360368,usec_per_call=2.67,rejected_calls=0,failed_calls=0
+cmdstat_hgetall:calls=15237,usec=73030,usec_per_call=4.79,rejected_calls=0,failed_calls=0
+cmdstat_client|setinfo:calls=30,usec=11,usec_per_call=0.37,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=124,usec=101,usec_per_call=0.81,rejected_calls=0,failed_calls=0
+cmdstat_hincrby:calls=105179,usec=73462,usec_per_call=0.70,rejected_calls=0,failed_calls=0
+cmdstat_hsetnx:calls=9146,usec=6337,usec_per_call=0.69,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=16066,usec=548338,usec_per_call=34.13,rejected_calls=0,failed_calls=0
+cmdstat_ltrim:calls=134859,usec=43001,usec_per_call=0.32,rejected_calls=0,failed_calls=0
+cmdstat_xlen:calls=50,usec=16,usec_per_call=0.32,rejected_calls=0,failed_calls=0
+cmdstat_hset:calls=304459,usec=181100,usec_per_call=0.59,rejected_calls=0,failed_calls=0
+cmdstat_lpush:calls=134859,usec=228664,usec_per_call=1.70,rejected_calls=0,failed_calls=0
+cmdstat_zscore:calls=135316,usec=139545,usec_per_call=1.03,rejected_calls=0,failed_calls=0
+cmdstat_zrangebyscore:calls=480,usec=3163,usec_per_call=6.59,rejected_calls=0,failed_calls=0
+cmdstat_evalsha:calls=150395,usec=5299410,usec_per_call=35.24,rejected_calls=0,failed_calls=0
+cmdstat_zadd:calls=137617,usec=308488,usec_per_call=2.24,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=50,usec=1524,usec_per_call=30.48,rejected_calls=0,failed_calls=0
+cmdstat_hello:calls=15,usec=67,usec_per_call=4.47,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=50,usec=302,usec_per_call=6.04,rejected_calls=0,failed_calls=0
+cmdstat_lrange:calls=15237,usec=36952,usec_per_call=2.43,rejected_calls=0,failed_calls=0
+cmdstat_pexpire:calls=404577,usec=211368,usec_per_call=0.52,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=50,usec=678,usec_per_call=13.56,rejected_calls=0,failed_calls=0
+cmdstat_hmget:calls=457,usec=306,usec_per_call=0.67,rejected_calls=0,failed_calls=0
+cmdstat_xack:calls=134859,usec=139808,usec_per_call=1.04,rejected_calls=0,failed_calls=0
+cmdstat_config|resetstat:calls=1,usec=100,usec_per_call=100.00,rejected_calls=0,failed_calls=0
+used_memory:49922400
+used_memory_rss:60764160
+mem_fragmentation_ratio:1.22
+## SLOWLOG
+
+## LATENCY DOCTOR
+No latency spike was observed during the lifetime of this Valkey instance, not in the slightest bit.

@@ -1,0 +1,139 @@
+# System under test. Every container, network and volume carries the lt- prefix; every published port
+# binds to 127.0.0.1. All services share cores 0 and 1 (cpuset), with per-service quotas that mirror the
+# AWS sizes: API services 0.5 vCPU / 1 GB, Redis (Valkey) 1 GB, Postgres 1 vCPU / 2 GB.
+# Build the image first: docker build -t lt-app:1 .
+name: lt
+
+x-app: &app
+  image: lt-app:1
+  pull_policy: never
+  cpuset: "0,1"
+  cpus: 0.5
+  mem_limit: 1g
+  cap_add: [SYS_PTRACE]            # py-spy attaches to PID 1 inside the container for profiling
+  # Docker's default soft limit (1024 here) caps a service at about 1,000 client connections; T4 hit it
+  # (results/t4_rootcause/). Each keep-alive client connection holds one descriptor.
+  ulimits: { nofile: { soft: 65536, hard: 65536 } }
+  stop_grace_period: 3s
+  logging: { driver: json-file, options: { max-size: "10m", max-file: "2" } }
+  depends_on:
+    lt-redis: { condition: service_healthy }
+    lt-pg: { condition: service_healthy }
+
+x-env: &env
+  DAY_S: ${DAY_S:-30}
+  ABANDON_TIMEOUT_S: ${ABANDON_TIMEOUT_S:-10}
+  WEBHOOK_SECRET: ${WEBHOOK_SECRET:-lt-test-secret}   # test-only default; set a real secret via env
+  PG_DSN: postgres://lt:${PG_PASSWORD:-lt-test-only}@lt-pg:5432/lt
+  REDIS_HOST: lt-redis
+  XADD_MODE: ${XADD_MODE:-lua}
+  KEEP_ALIVE_S: ${KEEP_ALIVE_S:-75}
+  REDIS_POOL_BLOCKING: ${REDIS_POOL_BLOCKING:-1}
+
+services:
+  lt-redis:
+    image: ${REDIS_IMAGE:-valkey/valkey:8.1.4-alpine}
+    container_name: lt-redis
+    cpuset: "0,1"
+    cpus: 1.0
+    mem_limit: 1g
+    command: ${REDIS_CMD:-valkey-server --maxmemory 700mb --maxmemory-policy noeviction --appendonly yes --appendfsync everysec --save "" --lazyfree-lazy-expire yes --lazyfree-lazy-user-del yes --lazyfree-lazy-server-del yes --hz 10 --tcp-keepalive 60 --io-threads 2 --latency-monitor-threshold 5}
+    volumes: [lt-redisdata:/data]
+    ports: ["127.0.0.1:17111:6379"]
+    healthcheck: { test: ["CMD-SHELL", "${REDIS_PING:-valkey-cli ping}"], interval: 2s, timeout: 2s, retries: 20 }
+    logging: { driver: json-file, options: { max-size: "10m", max-file: "2" } }
+
+  lt-pg:
+    image: postgres:18.6
+    container_name: lt-pg
+    cpuset: "0,1"
+    cpus: 1.0
+    mem_limit: 2g
+    shm_size: 256mb
+    environment:
+      POSTGRES_USER: lt
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-lt-test-only}      # test-only default
+      POSTGRES_DB: lt
+      # bytewise text comparison for event_id / user_id / txn_id keys (PG17+ builtin provider)
+      POSTGRES_INITDB_ARGS: ${PG_INITDB_ARGS---locale-provider=builtin --builtin-locale=C.UTF-8}
+    # pg/postgresql.conf documents every parameter; PG_CMD swaps in the default config for the A/B run
+    command: ${PG_CMD:-postgres -c config_file=/etc/postgresql/postgresql.conf}
+    volumes:
+      - lt-pgdata:/var/lib/postgresql          # PG18 image keeps data in /var/lib/postgresql/18/docker
+      - ./pg/postgresql.conf:/etc/postgresql/postgresql.conf:ro
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    ports: ["127.0.0.1:17110:5432"]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U lt -d lt"], interval: 2s, timeout: 2s, retries: 30 }
+    logging: { driver: json-file, options: { max-size: "10m", max-file: "2" } }
+
+  lt-collector:
+    <<: *app
+    container_name: lt-collector
+    command: ${COLLECTOR_CMD:-python -m lt.collector}
+    environment: { <<: *env }
+    ports: ["127.0.0.1:17101:8000"]
+
+  lt-decision:
+    <<: *app
+    container_name: lt-decision
+    command: ${DECISION_CMD:-python -m lt.decision}
+    environment: { <<: *env, MODEL_URL: "${MODEL_URL:-http://lt-model:8000/judge}", MODEL_KEEPALIVE: "${MODEL_KEEPALIVE:-1}",
+                   MODEL_TLS_VERIFY: "${MODEL_TLS_VERIFY:-1}", BREAKER: "${BREAKER:-1}" }
+    ports: ["127.0.0.1:17102:8000"]
+
+  lt-payments:
+    <<: *app
+    container_name: lt-payments
+    command: python -m lt.payments
+    environment: { <<: *env, PG_POOL: "4" }
+    ports: ["127.0.0.1:17103:8000"]
+
+  lt-model:
+    <<: *app
+    container_name: lt-model
+    command: python -m lt.model
+    environment: { <<: *env, TIMEOUT_RATE: "0", ERROR_RATE: "0" }
+    ports: ["127.0.0.1:17104:8000"]
+
+  lt-model-tls:
+    image: nginx:alpine
+    container_name: lt-model-tls
+    profiles: [tls]
+    cpuset: "0,1"
+    cpus: 0.5
+    mem_limit: 256m
+    depends_on: [lt-model]
+    volumes: ["./tls/nginx.conf:/etc/nginx/nginx.conf:ro", "./tls:/etc/nginx/tls:ro"]
+    ports: ["127.0.0.1:17108:8443"]
+    logging: { driver: json-file, options: { max-size: "10m", max-file: "2" } }
+
+  lt-context:
+    <<: *app
+    container_name: lt-context
+    hostname: lt-context              # fixed consumer name, so a restart drains its own pending list
+    command: python -m lt.context
+    environment: { <<: *env, DECISION_URL: "http://lt-decision:8000/decide" }
+    ports: ["127.0.0.1:17105:8000"]
+
+  lt-scheduler:
+    <<: *app
+    container_name: lt-scheduler
+    command: python -m lt.scheduler
+    environment: { <<: *env, REPLICA: "scheduler-1" }
+    ports: ["127.0.0.1:17106:8000"]
+
+  lt-scheduler-2:
+    <<: *app
+    container_name: lt-scheduler-2
+    profiles: [dual]
+    command: python -m lt.scheduler
+    environment: { <<: *env, REPLICA: "scheduler-2" }
+    ports: ["127.0.0.1:17107:8000"]
+
+networks:
+  default:
+    name: lt-net
+
+volumes:
+  lt-pgdata: { name: lt-pgdata }
+  lt-redisdata: { name: lt-redisdata }

@@ -1,0 +1,57 @@
+{
+ "run": "t7_tls_noka_1x-1790967548",
+ "profile": "constant",
+ "duration_s": 233.8,
+ "client_latency_ms": {
+  "events": {
+   "count": 3144,
+   "avg": 41.77,
+   "p50": 39.33,
+   "p95": 73.97,
+   "p99": 76.15,
+   "max": 95.11
+  },
+  "decide": {
+   "count": 3073,
+   "avg": 63.13,
+   "p50": 42.93,
+   "p95": 127.1,
+   "p99": 188.18,
+   "max": 356.14
+  },
+  "webhook": {
+   "count": 255,
+   "avg": 70.85,
+   "p50": 80.18,
+   "p95": 86.27,
+   "p99": 96.38,
+   "max": 293
+  }
+ },
+ "error_pct": {
+  "events": 0,
+  "decide": 0,
+  "webhook": 0,
+  "any": 0
+ },
+ "counts": {
+  "iterations": 954,
+  "dropped_iterations": 0,
+  "events_sent": 27838,
+  "events_lost": 0,
+  "events_retried": 0,
+  "decisions": 3073,
+  "webhooks": 255,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 6472
+ },
+ "rates_per_s": {
+  "events": 119,
+  "decisions": 13.1,
+  "http_reqs": 27.7
+ },
+ "thresholds_failed": []
+}

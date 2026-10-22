@@ -1,0 +1,4 @@
+03:09:14 decision TCP: inuse 385 orphan 0 tw 0 alloc 2014 mem 573
+03:09:29 decision TCP: inuse 407 orphan 0 tw 0 alloc 2192 mem 317
+03:09:49 model-tls TCP: inuse 16 orphan 0 tw 52 alloc 2357 mem 58 | decision TCP: inuse 421 orphan 0 tw 0 alloc 2357 mem 58
+03:09:59 model-tls TCP: inuse 12 orphan 0 tw 55 alloc 2409 mem 314 | decision TCP: inuse 427 orphan 0 tw 0 alloc 2411 mem 314

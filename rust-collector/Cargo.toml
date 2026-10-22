@@ -1,0 +1,22 @@
+[package]
+name = "lt-collector-rs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+publish = false
+
+[dependencies]
+axum = { version = "0.8.9", default-features = false, features = ["http1", "tokio"] }
+tokio = { version = "1.53.1", features = ["rt-multi-thread", "net", "macros", "time", "signal"] }
+sonic-rs = "0.5.10"
+fred = { version = "10.1.0", default-features = false, features = ["i-streams"] }
+rmp-serde = "1.3.1"
+serde = { version = "1.0.229", features = ["derive"] }
+libc = "0.2"
+bytes = "1"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+opt-level = 3

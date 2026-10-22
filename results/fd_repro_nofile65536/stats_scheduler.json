@@ -1,0 +1,1 @@
+{"service":"lt-scheduler","since_s":31.4,"latency_ms":{},"counters":{},"gauges":{"jobs_due_backlog":0,"outbox_pending":0},"cpu_s":0.022,"cpu_s_total":0.954,"maxrss_mb":53.3,"rss_mb":53.5}

@@ -1,0 +1,1 @@
+{"service":"lt-model","since_s":246.0,"latency_ms":{"http POST /judge 5xx":{"count":1230,"p50":153.233,"p95":153.233,"p99":153.233,"max":153.233,"mean":150.239}},"counters":{"injected_timeout":1230},"gauges":{},"cpu_s":0.904,"cpu_s_total":1.782,"maxrss_mb":45.0,"rss_mb":45.2}

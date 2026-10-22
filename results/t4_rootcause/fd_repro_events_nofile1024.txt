@@ -1,0 +1,29 @@
+## collector log (first 20 store errors)
+2026-10-02 18:34:29.966 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.967 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.967 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.967 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.968 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.968 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.968 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.968 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.969 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.969 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.969 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.973 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.973 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.973 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.973 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.974 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.974 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.974 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.974 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+2026-10-02 18:34:29.975 | WARNING  | __main__:events:78 - event store error: MaxConnectionsError: Too many connections
+collector counters {'accepted': 2791, 'batches': 2791, 'quarantined': 0, 'redis_unavailable': 997, 'redis_unavailable.MaxConnectionsError': 997}
+{'http POST /events 5xx': {'count': 997, 'p50': 0.038, 'p95': 0.071, 'p99': 0.175, 'max': 2.106, 'mean': 0.049}}
+    429 msg="status=0 error=EOF code=1000
+    232 msg="status=503 error= code=1503
+     70 msg="status=0 error=read: connection reset by peer code=1220
+      7 msg="status=0 error=http: server closed idle connection code=1000
+    reuse_failed...................: 738    33.618099/s
+    http_req_failed................: 41.85% 2009 out of 4800

@@ -1,0 +1,6 @@
+# Overlay for the io_method=io_uring run: lt-pg only gets a seccomp profile that is Docker's default plus
+# io_uring_setup / io_uring_enter / io_uring_register. Use: -f compose.yaml -f compose.iouring.yaml
+services:
+  lt-pg:
+    security_opt: ["seccomp=./pg/seccomp-iouring.json"]
+    command: postgres -c config_file=/etc/postgresql/postgresql.conf -c io_method=io_uring

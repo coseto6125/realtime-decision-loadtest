@@ -1,0 +1,45 @@
+# Commandstats
+cmdstat_config|resetstat:calls=1,usec=94,usec_per_call=94.00,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=50,usec=1695,usec_per_call=33.90,rejected_calls=0,failed_calls=0
+cmdstat_ltrim:calls=135102,usec=43437,usec_per_call=0.32,rejected_calls=0,failed_calls=0
+cmdstat_evalsha:calls=150573,usec=5402717,usec_per_call=35.88,rejected_calls=0,failed_calls=0
+cmdstat_lpush:calls=135102,usec=218821,usec_per_call=1.62,rejected_calls=0,failed_calls=0
+cmdstat_client|setinfo:calls=36,usec=21,usec_per_call=0.58,rejected_calls=0,failed_calls=0
+cmdstat_xadd:calls=135102,usec=371829,usec_per_call=2.75,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=135582,usec=29651,usec_per_call=0.22,rejected_calls=0,failed_calls=0
+cmdstat_hello:calls=18,usec=92,usec_per_call=5.11,rejected_calls=0,failed_calls=0
+cmdstat_hsetnx:calls=9170,usec=6573,usec_per_call=0.72,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=124,usec=2149,usec_per_call=17.33,rejected_calls=0,failed_calls=0
+cmdstat_hmget:calls=433,usec=385,usec_per_call=0.89,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=15960,usec=563923,usec_per_call=35.33,rejected_calls=0,failed_calls=0
+cmdstat_xack:calls=135102,usec=147219,usec_per_call=1.09,rejected_calls=0,failed_calls=0
+cmdstat_hincrby:calls=105455,usec=75323,usec_per_call=0.71,rejected_calls=0,failed_calls=0
+cmdstat_hgetall:calls=15173,usec=74392,usec_per_call=4.90,rejected_calls=0,failed_calls=0
+cmdstat_hget:calls=136310,usec=54041,usec_per_call=0.40,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=50,usec=682,usec_per_call=13.64,rejected_calls=0,failed_calls=0
+cmdstat_hset:calls=304947,usec=178655,usec_per_call=0.59,rejected_calls=0,failed_calls=0
+cmdstat_lrange:calls=15173,usec=33614,usec_per_call=2.22,rejected_calls=0,failed_calls=0
+cmdstat_zadd:calls=137802,usec=312446,usec_per_call=2.27,rejected_calls=0,failed_calls=0
+cmdstat_zrangebyscore:calls=480,usec=2804,usec_per_call=5.84,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=50,usec=393,usec_per_call=7.86,rejected_calls=0,failed_calls=0
+cmdstat_pexpire:calls=405306,usec=214505,usec_per_call=0.53,rejected_calls=0,failed_calls=0
+cmdstat_zrem:calls=3967,usec=7739,usec_per_call=1.95,rejected_calls=0,failed_calls=0
+cmdstat_xlen:calls=50,usec=27,usec_per_call=0.54,rejected_calls=0,failed_calls=0
+cmdstat_zscore:calls=135535,usec=137809,usec_per_call=1.02,rejected_calls=0,failed_calls=0
+cmdstat_set:calls=3631,usec=26218,usec_per_call=7.22,rejected_calls=0,failed_calls=0
+used_memory:48803040
+used_memory_rss:59977728
+mem_fragmentation_ratio:1.23
+## SLOWLOG
+
+## LATENCY DOCTOR
+Latency spikes are observed in this Valkey instance.
+
+1. aof-write: 1 latency spikes (average 17ms, mean deviation 0ms, period 137.00 sec). Worst all time event 17ms.
+2. aof-write-alone: 1 latency spikes (average 17ms, mean deviation 0ms, period 137.00 sec). Worst all time event 17ms.
+
+Here is some advice for you:
+
+- It is strongly advised to use local disks for persistence, especially if you are using AOF. Remote disks provided by platform-as-a-service providers are known to be slow.
+- SSD disks are able to reduce fsync latency, and total time needed for snapshotting and AOF log rewriting (resulting in smaller memory usage). With extremely high write load SSD disks can be a good option. However Valkey should perform reasonably with high load using normal disks. Use this advice as a last resort.
+- Mounting ext3/4 filesystems with data=writeback can provide a performance boost compared to data=ordered, however this mode of operation provides less guarantees, and sometimes it can happen that after a hard crash the AOF file will have a half-written command at the end and will require to be repaired before Valkey restarts.

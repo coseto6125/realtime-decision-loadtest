@@ -1,0 +1,1 @@
+{"service":"lt-context","since_s":162.5,"latency_ms":{},"counters":{},"gauges":{"paying_users":0,"trigger_pending":0,"stream_pending":0,"stream_lag":0,"stream_len":0,"redis_used_memory_mb":1.2},"cpu_s":0.275,"cpu_s_total":1.385,"maxrss_mb":64.4,"rss_mb":64.7}

@@ -1,0 +1,1 @@
+time="2026-10-03T01:51:50+08:00" level=error msg="thresholds on metrics 'err_any, t_events' have been crossed"

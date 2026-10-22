@@ -1,0 +1,1 @@
+{"service":"lt-decision","since_s":31.4,"latency_ms":{},"counters":{"model_conns_new_total":0},"gauges":{"model_inflight_max_1s":0,"model_inflight_max_run":0,"model_conns_open":0,"model_conns_open_max_run":0,"model_conns_new_1s":0,"model_conns_new_max_1s":0,"breaker_open":0},"cpu_s":0.204,"cpu_s_total":1.172,"maxrss_mb":59.0,"rss_mb":59.1}

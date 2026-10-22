@@ -1,0 +1,36 @@
+# Commandstats
+cmdstat_zrangebyscore:calls=456,usec=2517,usec_per_call=5.52,rejected_calls=0,failed_calls=0
+cmdstat_hget:calls=28329,usec=11605,usec_per_call=0.41,rejected_calls=0,failed_calls=0
+cmdstat_xack:calls=55892,usec=58872,usec_per_call=1.05,rejected_calls=0,failed_calls=0
+cmdstat_hgetall:calls=3160,usec=19859,usec_per_call=6.28,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=46,usec=695,usec_per_call=15.11,rejected_calls=0,failed_calls=0
+cmdstat_config|resetstat:calls=1,usec=39,usec_per_call=39.00,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=47,usec=1697,usec_per_call=36.11,rejected_calls=0,failed_calls=0
+cmdstat_lrange:calls=3160,usec=8149,usec_per_call=2.58,rejected_calls=0,failed_calls=0
+cmdstat_hincrby:calls=21942,usec=15892,usec_per_call=0.72,rejected_calls=0,failed_calls=0
+cmdstat_zadd:calls=28645,usec=67588,usec_per_call=2.36,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=47,usec=457,usec_per_call=9.72,rejected_calls=0,failed_calls=0
+cmdstat_lpush:calls=28077,usec=46845,usec_per_call=1.67,rejected_calls=0,failed_calls=0
+cmdstat_hmget:calls=99,usec=98,usec_per_call=0.99,rejected_calls=0,failed_calls=0
+cmdstat_set:calls=752,usec=5987,usec_per_call=7.96,rejected_calls=0,failed_calls=0
+cmdstat_hset:calls=63350,usec=36999,usec_per_call=0.58,rejected_calls=0,failed_calls=0
+cmdstat_zrem:calls=830,usec=1690,usec_per_call=2.04,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=6208,usec=224580,usec_per_call=36.18,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=115,usec=104,usec_per_call=0.90,rejected_calls=0,failed_calls=0
+cmdstat_pexpire:calls=84231,usec=45006,usec_per_call=0.53,rejected_calls=0,failed_calls=0
+cmdstat_zscore:calls=55991,usec=59253,usec_per_call=1.06,rejected_calls=0,failed_calls=0
+cmdstat_xadd:calls=55892,usec=141682,usec_per_call=2.53,rejected_calls=0,failed_calls=0
+cmdstat_ltrim:calls=28077,usec=8433,usec_per_call=0.30,rejected_calls=0,failed_calls=0
+cmdstat_hello:calls=4,usec=17,usec_per_call=4.25,rejected_calls=0,failed_calls=0
+cmdstat_hsetnx:calls=1908,usec=1320,usec_per_call=0.69,rejected_calls=0,failed_calls=0
+cmdstat_xlen:calls=47,usec=22,usec_per_call=0.47,rejected_calls=0,failed_calls=0
+cmdstat_evalsha:calls=62215,usec=1629045,usec_per_call=26.18,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=28533,usec=7122,usec_per_call=0.25,rejected_calls=0,failed_calls=0
+cmdstat_client|setinfo:calls=8,usec=4,usec_per_call=0.50,rejected_calls=0,failed_calls=0
+used_memory:49289592
+used_memory_rss:59150336
+mem_fragmentation_ratio:1.20
+## SLOWLOG
+
+## LATENCY DOCTOR
+I'm sorry, Dave, I can't do that. Latency monitoring is disabled in this Valkey instance. You may use "CONFIG SET latency-monitor-threshold <milliseconds>." in order to enable it.

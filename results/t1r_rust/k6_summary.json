@@ -1,0 +1,57 @@
+{
+ "run": "t1r_rust-1790959826",
+ "profile": "constant",
+ "duration_s": 351.4,
+ "client_latency_ms": {
+  "events": {
+   "count": 5239,
+   "avg": 40.74,
+   "p50": 38.97,
+   "p95": 45.7,
+   "p99": 76.74,
+   "max": 92.03
+  },
+  "decide": {
+   "count": 5128,
+   "avg": 61.86,
+   "p50": 42.7,
+   "p95": 126.38,
+   "p99": 187.5,
+   "max": 935.5
+  },
+  "webhook": {
+   "count": 462,
+   "avg": 67.1,
+   "p50": 79.71,
+   "p95": 84.69,
+   "p99": 88.02,
+   "max": 94.51
+  }
+ },
+ "error_pct": {
+  "events": 0,
+  "decide": 0,
+  "webhook": 0,
+  "any": 0
+ },
+ "counts": {
+  "iterations": 1591,
+  "dropped_iterations": 0,
+  "events_sent": 46495,
+  "events_lost": 0,
+  "events_retried": 0,
+  "decisions": 5128,
+  "webhooks": 462,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 10829
+ },
+ "rates_per_s": {
+  "events": 132.3,
+  "decisions": 14.6,
+  "http_reqs": 30.8
+ },
+ "thresholds_failed": []
+}

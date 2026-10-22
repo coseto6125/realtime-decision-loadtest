@@ -1,0 +1,7 @@
+# Overlay used by the T4 root-cause A/B (scripts/fd_repro.sh) before compose.yaml itself got the same
+# ulimits; kept so the repro stays runnable. Docker's default soft limit on the load host is 1024.
+services:
+  lt-collector: { ulimits: { nofile: { soft: 65536, hard: 65536 } } }
+  lt-decision: { ulimits: { nofile: { soft: 65536, hard: 65536 } } }
+  lt-payments: { ulimits: { nofile: { soft: 65536, hard: 65536 } } }
+  lt-model: { ulimits: { nofile: { soft: 65536, hard: 65536 } } }

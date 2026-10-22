@@ -1,0 +1,30 @@
+# Commandstats
+cmdstat_xlen:calls=6,usec=1,usec_per_call=0.17,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=15,usec=15,usec_per_call=1.00,rejected_calls=0,failed_calls=0
+cmdstat_hget:calls=2791,usec=1825,usec_per_call=0.65,rejected_calls=0,failed_calls=0
+cmdstat_hello:calls=63,usec=225,usec_per_call=3.57,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=6,usec=95,usec_per_call=15.83,rejected_calls=0,failed_calls=0
+cmdstat_zrangebyscore:calls=64,usec=213,usec_per_call=3.33,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=2855,usec=854,usec_per_call=0.30,rejected_calls=0,failed_calls=0
+cmdstat_xack:calls=2791,usec=3350,usec_per_call=1.20,rejected_calls=0,failed_calls=0
+cmdstat_zadd:calls=2791,usec=6267,usec_per_call=2.25,rejected_calls=0,failed_calls=0
+cmdstat_hincrby:calls=2791,usec=2508,usec_per_call=0.90,rejected_calls=0,failed_calls=0
+cmdstat_evalsha:calls=5582,usec=162206,usec_per_call=29.06,rejected_calls=0,failed_calls=0
+cmdstat_zscore:calls=2791,usec=3521,usec_per_call=1.26,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=1338,usec=26080,usec_per_call=19.49,rejected_calls=0,failed_calls=0
+cmdstat_config|resetstat:calls=1,usec=107,usec_per_call=107.00,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=6,usec=226,usec_per_call=37.67,rejected_calls=0,failed_calls=0
+cmdstat_lpush:calls=2791,usec=3544,usec_per_call=1.27,rejected_calls=0,failed_calls=0
+cmdstat_client|setinfo:calls=126,usec=71,usec_per_call=0.56,rejected_calls=0,failed_calls=0
+cmdstat_ltrim:calls=2791,usec=1150,usec_per_call=0.41,rejected_calls=0,failed_calls=0
+cmdstat_xadd:calls=2791,usec=15234,usec_per_call=5.46,rejected_calls=0,failed_calls=0
+cmdstat_hset:calls=6529,usec=5499,usec_per_call=0.84,rejected_calls=0,failed_calls=0
+cmdstat_pexpire:calls=8373,usec=6575,usec_per_call=0.79,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=6,usec=36,usec_per_call=6.00,rejected_calls=0,failed_calls=0
+used_memory:2700288
+used_memory_rss:11825152
+mem_fragmentation_ratio:4.41
+## SLOWLOG
+
+## LATENCY DOCTOR
+No latency spike was observed during the lifetime of this Valkey instance, not in the slightest bit.

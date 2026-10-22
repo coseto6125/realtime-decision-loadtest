@@ -1,0 +1,46 @@
+# Commandstats
+cmdstat_hmget:calls=403,usec=250,usec_per_call=0.62,rejected_calls=0,failed_calls=0
+cmdstat_lrange:calls=13164,usec=30953,usec_per_call=2.35,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=116855,usec=26399,usec_per_call=0.23,rejected_calls=0,failed_calls=0
+cmdstat_hello:calls=17,usec=3532,usec_per_call=207.76,rejected_calls=0,failed_calls=0
+cmdstat_pexpire:calls=348801,usec=194854,usec_per_call=0.56,rejected_calls=0,failed_calls=0
+cmdstat_lpush:calls=116267,usec=190999,usec_per_call=1.64,rejected_calls=0,failed_calls=0
+cmdstat_config|resetstat:calls=1,usec=105,usec_per_call=105.00,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=60,usec=2091,usec_per_call=34.85,rejected_calls=0,failed_calls=0
+cmdstat_zadd:calls=118645,usec=271748,usec_per_call=2.29,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=60,usec=370,usec_per_call=6.17,rejected_calls=0,failed_calls=0
+cmdstat_set:calls=3153,usec=24030,usec_per_call=7.62,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=13353,usec=498279,usec_per_call=37.32,rejected_calls=0,failed_calls=0
+cmdstat_xadd:calls=116267,usec=332577,usec_per_call=2.86,rejected_calls=0,failed_calls=0
+cmdstat_hincrby:calls=90735,usec=62765,usec_per_call=0.69,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=149,usec=130,usec_per_call=0.87,rejected_calls=0,failed_calls=0
+cmdstat_zrem:calls=3438,usec=7578,usec_per_call=2.20,rejected_calls=0,failed_calls=0
+cmdstat_hgetall:calls=13164,usec=65616,usec_per_call=4.98,rejected_calls=0,failed_calls=0
+cmdstat_ltrim:calls=116267,usec=36715,usec_per_call=0.32,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=60,usec=888,usec_per_call=14.80,rejected_calls=0,failed_calls=0
+cmdstat_xack:calls=116267,usec=127229,usec_per_call=1.09,rejected_calls=0,failed_calls=0
+cmdstat_hsetnx:calls=7890,usec=6784,usec_per_call=0.86,rejected_calls=0,failed_calls=0
+cmdstat_zrangebyscore:calls=588,usec=3459,usec_per_call=5.88,rejected_calls=0,failed_calls=0
+cmdstat_hset:calls=262448,usec=155231,usec_per_call=0.59,rejected_calls=0,failed_calls=0
+cmdstat_evalsha:calls=129690,usec=4803472,usec_per_call=37.04,rejected_calls=0,failed_calls=0
+cmdstat_xlen:calls=60,usec=23,usec_per_call=0.38,rejected_calls=0,failed_calls=0
+cmdstat_zscore:calls=116670,usec=119376,usec_per_call=1.02,rejected_calls=0,failed_calls=0
+cmdstat_client|setinfo:calls=34,usec=16,usec_per_call=0.47,rejected_calls=0,failed_calls=0
+cmdstat_hget:calls=117389,usec=48419,usec_per_call=0.41,rejected_calls=0,failed_calls=0
+used_memory:39685232
+used_memory_rss:50556928
+mem_fragmentation_ratio:1.27
+## SLOWLOG
+
+## LATENCY DOCTOR
+Latency spikes are observed in this Valkey instance.
+
+1. command: 1 latency spikes (average 5ms, mean deviation 0ms, period 182.00 sec). Worst all time event 5ms.
+2. fork: 1 latency spikes (average 6ms, mean deviation 0ms, period 88.00 sec). Worst all time event 6ms. Fork rate is 5.74 GB/sec (terrible).
+
+Here is some advice for you:
+
+- If you are using a virtual machine, consider upgrading it with a faster one using a hypervisior that provides less latency during fork() calls. Xen is known to have poor fork() performance. Even in the context of the same VM provider, certain kinds of instances can execute fork faster than others.
+- Your current Slow Log configuration only logs events that are slower than your configured latency monitor threshold. Please use 'CONFIG SET slowlog-log-slower-than 5000'.
+- Check your Slow Log to understand what are the commands you are running which are too slow to execute. Please check https://valkey.io/commands/slowlog for more information.
+- Deleting, expiring or evicting (because of maxmemory policy) large objects is a blocking operation. If you have very large objects that are often deleted, expired, or evicted, try to fragment those objects into multiple smaller objects.

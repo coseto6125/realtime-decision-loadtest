@@ -1,0 +1,37 @@
+        what        |                   k                   |   n   
+--------------------+---------------------------------------+-------
+ abandonment_source | cancel_recharge                       |   148
+ abandonment_source | state_timeout                         |    79
+ decisions          | abandonment/holdout/none              |    75
+ decisions          | abandonment/model/small_plan_hint     |    69
+ decisions          | abandonment/rule/alt_payment_hint     |    31
+ decisions          | abandonment/rule/small_plan_hint      |    52
+ decisions          | leave_room/holdout/none               |    93
+ decisions          | leave_room/model/none                 |   591
+ decisions          | leave_room/model/recommend_next_room  |   270
+ decisions          | login/holdout/none                    |   104
+ decisions          | login/rule/home_rank                  |   870
+ decisions          | login/rule/none                       |    20
+ decisions          | watch_30min/holdout/none              |    86
+ decisions          | watch_30min/rule/follow_prompt        |   575
+ decisions          | watch_30min/rule/none                 |   293
+ entitlements       | granted_unredeemed                    |    89
+ entitlements       | redeemed                              |    27
+ model_status       | abandonment/ok                        |   218
+ model_status       | abandonment/timeout                   |     9
+ model_status       | leave_room/ok                         |   933
+ model_status       | leave_room/timeout                    |    21
+ next_day_jobs      | done/holdout_no_action/scheduler-1    |    75
+ next_day_jobs      | done/no_push_consent/scheduler-1      |    13
+ next_day_jobs      | done/prior_payer_no_offer/scheduler-1 |    23
+ next_day_jobs      | done/pushed_offer/scheduler-1         |   116
+ outbox             | alt_payment_hint/sent                 |    31
+ outbox             | follow_prompt/sent                    |   575
+ outbox             | home_rank/sent                        |   870
+ outbox             | push_bonus_offer/sent                 |   116
+ outbox             | recommend_next_room/sent              |   270
+ outbox             | small_plan_hint/sent                  |   121
+ payments           | seed                                  | 10000
+ payments           | tappay                                |   263
+(33 rows)
+

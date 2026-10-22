@@ -1,0 +1,60 @@
+{
+ "run": "t3_redis_pause-1790963270",
+ "profile": "constant",
+ "duration_s": 239.4,
+ "client_latency_ms": {
+  "events": {
+   "count": 3467,
+   "avg": 144.6,
+   "p50": 39.15,
+   "p95": 1039.33,
+   "p99": 1040.68,
+   "max": 1064.99
+  },
+  "decide": {
+   "count": 3075,
+   "avg": 69.32,
+   "p50": 42.36,
+   "p95": 153.5,
+   "p99": 342.78,
+   "max": 527.85
+  },
+  "webhook": {
+   "count": 255,
+   "avg": 98.21,
+   "p50": 79.73,
+   "p95": 83.61,
+   "p99": 1080.06,
+   "max": 1081.88
+  }
+ },
+ "error_pct": {
+  "events": 9.691,
+  "decide": 0,
+  "webhook": 0,
+  "any": 4.943
+ },
+ "counts": {
+  "iterations": 954,
+  "dropped_iterations": 0,
+  "events_sent": 27817,
+  "events_lost": 0,
+  "events_retried": 3163,
+  "decisions": 3075,
+  "webhooks": 255,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 6797
+ },
+ "rates_per_s": {
+  "events": 116.2,
+  "decisions": 12.8,
+  "http_reqs": 28.4
+ },
+ "thresholds_failed": [
+  "t_events",
+  "err_any"
+ ]
+}

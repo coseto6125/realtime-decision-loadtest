@@ -1,0 +1,6 @@
+.venv
+results
+k6
+tests
+__pycache__
+*.md

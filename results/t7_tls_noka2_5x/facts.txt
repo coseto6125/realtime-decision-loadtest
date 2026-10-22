@@ -1,0 +1,40 @@
+        what        |                   k                   |   n   
+--------------------+---------------------------------------+-------
+ abandonment_source | cancel_recharge                       |   775
+ abandonment_source | state_timeout                         |   432
+ decisions          | abandonment/holdout/none              |   413
+ decisions          | abandonment/model/alt_payment_hint    |     2
+ decisions          | abandonment/model/none                |    12
+ decisions          | abandonment/model/small_plan_hint     |   382
+ decisions          | abandonment/rule/alt_payment_hint     |   143
+ decisions          | abandonment/rule/small_plan_hint      |   255
+ decisions          | leave_room/holdout/none               |   481
+ decisions          | leave_room/model/none                 |  2815
+ decisions          | leave_room/model/recommend_next_room  |  1281
+ decisions          | login/holdout/none                    |   483
+ decisions          | login/rule/home_rank                  |  4111
+ decisions          | login/rule/none                       |   236
+ decisions          | watch_30min/holdout/none              |   444
+ decisions          | watch_30min/rule/follow_prompt        |  2710
+ decisions          | watch_30min/rule/none                 |  1423
+ entitlements       | granted_unredeemed                    |   446
+ entitlements       | redeemed                              |   114
+ model_status       | abandonment/ok                        |  1172
+ model_status       | abandonment/timeout                   |    35
+ model_status       | leave_room/ok                         |  4476
+ model_status       | leave_room/timeout                    |   101
+ next_day_jobs      | done/holdout_no_action/scheduler-1    |   413
+ next_day_jobs      | done/lifetime_once/scheduler-1        |     3
+ next_day_jobs      | done/no_push_consent/scheduler-1      |    69
+ next_day_jobs      | done/prior_payer_no_offer/scheduler-1 |   162
+ next_day_jobs      | done/pushed_offer/scheduler-1         |   560
+ outbox             | alt_payment_hint/sent                 |   145
+ outbox             | follow_prompt/sent                    |  2710
+ outbox             | home_rank/sent                        |  4111
+ outbox             | push_bonus_offer/sent                 |   560
+ outbox             | recommend_next_room/sent              |  1281
+ outbox             | small_plan_hint/sent                  |   637
+ payments           | seed                                  | 10000
+ payments           | tappay                                |  1302
+(36 rows)
+

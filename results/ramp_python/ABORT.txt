@@ -1,0 +1,3 @@
+ABORT: red line hit, stopping k6
+2026-10-03T01:04:43+08:00 load1=3.57 mem_available_kb=19961116
+2026-10-03T01:04:46+08:00 load1=3.57 mem_available_kb=20071336

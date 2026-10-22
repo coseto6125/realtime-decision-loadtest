@@ -1,0 +1,1 @@
+{"service":"lt-model","since_s":162.5,"latency_ms":{},"counters":{},"gauges":{"inflight_now":0,"inflight_max_1s":0,"inflight_max_run":0,"tcp_conns_port_8000":0},"cpu_s":0.983,"cpu_s_total":2.075,"maxrss_mb":44.6,"rss_mb":44.7}

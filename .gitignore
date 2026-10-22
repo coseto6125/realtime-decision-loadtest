@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+results/private/
+rust-collector/target/
+# raw outputs above 5 MB are not committed (list regenerated before publishing: find results -size +5M)
+results/ramp_rust/remote/k6_points.csv.gz
+tls/*.pem
+.ruff_cache/

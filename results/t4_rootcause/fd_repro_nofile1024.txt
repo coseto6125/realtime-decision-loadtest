@@ -1,0 +1,7 @@
+collector ulimit -n: 1024
+collector counters {'accepted': 0, 'batches': 4040, 'quarantined': 0}
+    348 level=warning msg="status=0 error=EOF code=1000
+     26 level=warning msg="status=0 error=read: connection reset by peer code=1220
+      6 level=warning msg="status=0 error=http: server closed idle connection code=1000
+    reuse_failed...................: 380    17.408713/s
+    http_req_failed................: 15.83% 760 out of 4800

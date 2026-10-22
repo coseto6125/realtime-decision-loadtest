@@ -1,0 +1,25 @@
+
+
+  █ TOTAL RESULTS 
+
+    CUSTOM
+    reuse_failed...................: 380    17.408713/s
+
+    HTTP
+    http_req_duration..............: avg=15.94ms min=0s       med=406.38µs max=142.74ms p(90)=49.37ms p(95)=78.98ms 
+      { expected_response:true }...: avg=18.67ms min=157.72µs med=459.1µs  max=142.74ms p(90)=51.71ms p(95)=125.55ms
+    http_req_failed................: 15.83% 760 out of 4800
+    http_reqs......................: 4800   219.899536/s
+
+    EXECUTION
+    iteration_duration.............: avg=10.25s  min=9.7s     med=10.15s   max=11.5s    p(90)=11.05s  p(95)=11.27s  
+    iterations.....................: 2400   109.949768/s
+    vus............................: 64     min=64          max=1200
+    vus_max........................: 1200   min=1200        max=1200
+
+    NETWORK
+    data_received..................: 505 kB 23 kB/s
+    data_sent......................: 568 kB 26 kB/s
+
+
+

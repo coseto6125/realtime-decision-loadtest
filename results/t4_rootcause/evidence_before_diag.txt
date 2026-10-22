@@ -1,0 +1,17 @@
+## valkey
+10000
+connected_clients:5
+maxclients:10000
+blocked_clients:1
+total_connections_received:12
+rejected_connections:0
+evicted_keys:0
+evicted_clients:0
+evicted_scripts:0
+total_error_replies:3
+## lt-collector ulimit -n: 1024
+TCP: inuse 3 orphan 1 tw 0 alloc 151 mem 360
+{'ListenOverflows': '0', 'ListenDrops': '0', 'TCPAbortOnData': '0', 'TCPAbortOnClose': '0', 'TCPAbortOnTimeout': '0'}
+## lt-decision ulimit -n: 1024
+TCP: inuse 3 orphan 1 tw 0 alloc 151 mem 360
+{'ListenOverflows': '0', 'ListenDrops': '0', 'TCPAbortOnData': '0', 'TCPAbortOnClose': '0', 'TCPAbortOnTimeout': '0'}

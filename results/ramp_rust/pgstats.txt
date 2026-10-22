@@ -1,0 +1,64 @@
+## pg_stat_statements top 15 by total time
+ calls | total_ms | mean_ms | stddev_ms | rows | shared_blks_hit | shared_blks_read |                                                     query                                                      
+-------+----------+---------+-----------+------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------
+   136 |      2.6 |   0.019 |     0.033 |    0 |             136 |                0 | SELECT id, user_id, arm, abandoned_at FROM next_day_jobs WHERE status = 'due' AND due_at <= now() ORDER BY due
+   136 |      2.4 |   0.017 |     0.019 |  136 |             272 |                0 | SELECT (SELECT count(*) FROM next_day_jobs WHERE status = 'due' AND due_at <= now()) AS due, (SELECT count(*) 
+    91 |      1.1 |   0.012 |     0.004 |    0 |              91 |                0 | SELECT id, provider, txn_id, user_id, amount FROM payments WHERE NOT emitted AND created_at < now() - interval
+   136 |      1.0 |   0.007 |     0.007 |    0 |             136 |                0 | WITH s AS (SELECT id FROM outbox WHERE status = $1 ORDER BY id LIMIT $2 FOR UPDATE SKIP LOCKED) UPDATE outbox 
+   136 |      0.2 |   0.001 |     0.000 |    0 |               0 |                0 | START TRANSACTION
+     1 |      0.1 |   0.109 |     0.000 |    1 |               0 |                0 | SELECT pg_stat_statements_reset()
+   136 |      0.1 |   0.001 |     0.000 |    0 |               0 |                0 | COMMIT
+     1 |      0.1 |   0.050 |     0.000 |    1 |               0 |                0 | SELECT pg_stat_reset()
+     3 |      0.0 |   0.004 |     0.002 |    3 |               0 |                0 | SELECT pg_stat_reset_shared($1)
+
+## pg_stat_wal
+ wal_records | wal_fpi | wal_bytes | wal_buffers_full |          stats_reset          
+-------------+---------+-----------+------------------+-------------------------------
+           1 |       0 |        50 |                0 | 2026-10-02 16:56:32.474359+00
+
+## pg_stat_checkpointer
+ num_timed | num_requested | write_time | sync_time | buffers_written |          stats_reset          
+-----------+---------------+------------+-----------+-----------------+-------------------------------
+         0 |             0 |          0 |         0 |               0 | 2026-10-02 16:56:32.474526+00
+
+## pg_stat_io (client backends and autovacuum, non-zero)
+ backend_type | object | context | reads | writes | extends | fsyncs | hits | write_ms 
+--------------+--------+---------+-------+--------+---------+--------+------+----------
+ walwriter    | wal    | normal  |       |      1 |         |      1 |      |      0.0
+
+## pg_stat_user_tables
+    relname    | seq_scan | idx_scan | n_tup_ins | n_tup_upd | n_tup_hot_upd | hot_pct | n_live_tup | n_dead_tup | autovacuum_count | autoanalyze_count | total_size 
+---------------+----------+----------+-----------+-----------+---------------+---------+------------+------------+------------------+-------------------+------------
+ contact_log   |        0 |        0 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 80 kB
+ decisions     |        0 |        0 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 2656 kB
+ entitlements  |        0 |        0 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 160 kB
+ next_day_jobs |        0 |      272 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 192 kB
+ outbox        |        0 |      544 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 1800 kB
+ payments      |        0 |       91 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 2800 kB
+ policies      |        0 |        0 |         0 |         0 |             0 |         |          0 |          0 |                0 |                 0 | 32 kB
+
+## pg_stat_user_indexes
+    relname    |           indexrelname            | idx_scan | idx_tup_read |  size  
+---------------+-----------------------------------+----------+--------------+--------
+ contact_log   | contact_log_pkey                  |        0 |            0 | 16 kB
+ contact_log   | contact_log_user_id_day_key       |        0 |            0 | 16 kB
+ decisions     | decisions_created_brin            |        0 |            0 | 24 kB
+ decisions     | decisions_event_id_key            |        0 |            0 | 408 kB
+ decisions     | decisions_pkey                    |        0 |            0 | 136 kB
+ entitlements  | entitlements_job                  |        0 |            0 | 16 kB
+ entitlements  | entitlements_payment              |        0 |            0 | 16 kB
+ entitlements  | entitlements_pkey                 |        0 |            0 | 16 kB
+ entitlements  | entitlements_user_id_campaign_key |        0 |            0 | 40 kB
+ next_day_jobs | next_day_jobs_decision_id_key     |        0 |            0 | 32 kB
+ next_day_jobs | next_day_jobs_due                 |      272 |            0 | 16 kB
+ next_day_jobs | next_day_jobs_pkey                |        0 |            0 | 32 kB
+ outbox        | outbox_decision                   |        0 |            0 | 112 kB
+ outbox        | outbox_job                        |        0 |            0 | 48 kB
+ outbox        | outbox_pending                    |      272 |            0 | 16 kB
+ outbox        | outbox_pkey                       |      272 |          272 | 104 kB
+ payments      | payments_pkey                     |        0 |            0 | 256 kB
+ payments      | payments_provider_txn_id_key      |        0 |            0 | 600 kB
+ payments      | payments_unemitted                |       91 |            0 | 16 kB
+ payments      | payments_user                     |        0 |            0 | 552 kB
+ policies      | policies_pkey                     |        0 |            0 | 16 kB
+

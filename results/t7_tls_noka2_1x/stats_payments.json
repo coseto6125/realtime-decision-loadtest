@@ -1,0 +1,1 @@
+{"service":"lt-payments","since_s":233.1,"latency_ms":{"http POST /webhook 2xx":{"count":274,"p50":4.912,"p95":6.464,"p99":9.2,"max":20.585,"mean":5.132},"pg_txn_ms":{"count":274,"p50":2.522,"p95":3.318,"p99":4.912,"max":13.424,"mean":2.609}},"counters":{"emitted":274,"recorded":274,"redeemed":30},"gauges":{},"cpu_s":0.78,"cpu_s_total":1.674,"maxrss_mb":57.0,"rss_mb":55.8}

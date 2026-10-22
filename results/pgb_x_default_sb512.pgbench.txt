@@ -1,0 +1,26 @@
+before
+16542940,1779
+0,1
+usage_usec 1447081
+pgbench (18.6 (Debian 18.6-1.pgdg13+2))
+transaction type: /bench/pgbench_decide.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 8
+number of threads: 2
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 60276
+number of failed transactions: 0 (0.000%)
+latency average = 7.958 ms
+initial connection time = 48.829 ms
+tps = 1005.251269 (without initial connection time)
+statement latencies in milliseconds and failures:
+         0.001           0 \set n random(1, 1000000000000)
+         0.000           0 \set uid random(1, 50000)
+         1.317           0 SELECT body FROM decisions WHERE event_id = 'pgb-' || :client_id || '-' || :n;
+         6.629           0 WITH d AS (INSERT INTO decisions (policy_version, top_p, event_id, user_id, trigger, arm, action, reason, model_status, top_int
+after
+90495472,2023
+0,1
+usage_usec 61304087

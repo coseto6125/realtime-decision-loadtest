@@ -1,0 +1,57 @@
+{
+ "run": "t3_forged_recharge-1790962496",
+ "profile": "constant",
+ "duration_s": 244.4,
+ "client_latency_ms": {
+  "events": {
+   "count": 3493,
+   "avg": 41.55,
+   "p50": 39.31,
+   "p95": 73.54,
+   "p99": 75.84,
+   "max": 82.13
+  },
+  "decide": {
+   "count": 3448,
+   "avg": 62.63,
+   "p50": 42.93,
+   "p95": 127.73,
+   "p99": 189.49,
+   "max": 330.59
+  },
+  "webhook": {
+   "count": 219,
+   "avg": 73.23,
+   "p50": 79.98,
+   "p95": 85.04,
+   "p99": 94.14,
+   "max": 285.14
+  }
+ },
+ "error_pct": {
+  "events": 0,
+  "decide": 0,
+  "webhook": 0,
+  "any": 0
+ },
+ "counts": {
+  "iterations": 954,
+  "dropped_iterations": 0,
+  "events_sent": 28541,
+  "events_lost": 0,
+  "events_retried": 0,
+  "decisions": 3448,
+  "webhooks": 219,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 190,
+  "http_reqs": 7160
+ },
+ "rates_per_s": {
+  "events": 116.8,
+  "decisions": 14.1,
+  "http_reqs": 29.3
+ },
+ "thresholds_failed": []
+}

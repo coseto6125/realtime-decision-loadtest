@@ -1,0 +1,20 @@
+              invariant              | violations 
+-------------------------------------+------------
+ payment_event_not_emitted_after_30s |          0
+ forged_recharge_payment_row         |          0
+ bad_signature_payment_row           |          0
+ forged_recharge_redeemed            |          0
+ push_rows_per_job_gt1               |          0
+ entitlements_per_user_campaign_gt1  |          0
+ job_processed_more_than_once        |          0
+ holdout_entitlement                 |          0
+ holdout_action_next_day             |          0
+ redemption_without_verified_webhook |          0
+ bonus_granted_to_prior_payer        |          0
+ bonus_redeemed_on_non_first_payment |          0
+ push_per_user_day_gt1               |          0
+ duplicate_decision_per_event_id     |          0
+ holdout_action_now                  |          0
+ arm_changed_for_user                |          0
+(16 rows)
+

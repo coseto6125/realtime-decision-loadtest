@@ -1,0 +1,50 @@
+## config
+maxmemory=734003200
+maxmemory-policy=noeviction
+appendonly=yes
+appendfsync=everysec
+io-threads=2
+lazyfree-lazy-user-del=yes
+hash-max-listpack-entries=512
+hash-max-listpack-value=64
+list-max-listpack-size=-2
+zset-max-listpack-entries=128
+zset-max-listpack-value=64
+## keyspace
+db0:keys=10406,expires=10405,avg_ttl=538696268
+## memory
+used_memory:34009280
+used_memory_rss:43479040
+used_memory_dataset:32526493
+mem_fragmentation_ratio:1.28
+## ctx:* sample=200 avg_bytes=330 encodings: listpack=200
+## ev:* sample=200 avg_bytes=3772 encodings: listpack=200
+## dd:* sample=200 avg_bytes=1720 encodings: listpack=200
+## cap:* sample=200 avg_bytes=110 encodings: raw=200
+## sample ctx hash
+ctx:{u42210} fields=10
+session_id	t1_baseline-1790959142-s170-4-933607
+watch_minutes	35
+rooms_visited	2
+chats	13
+gifts	1
+current_room	
+platform	android
+last_cts	1790959330981
+updated_st	1790959330978
+fav_streamer	room_238
+## streams
+events len=93838 mem=13638818
+events:quarantine len=0 mem=
+length	93838
+radix-tree-keys	3286
+radix-tree-nodes	7566
+last-generated-id	1790959795350-1
+max-deleted-entry-id	0-0
+entries-added	93838
+recorded-first-entry-id	1790959146650-0
+groups	1
+## SLOWLOG GET 10
+
+## LATENCY DOCTOR
+I'm sorry, Dave, I can't do that. Latency monitoring is disabled in this Valkey instance. You may use "CONFIG SET latency-monitor-threshold <milliseconds>." in order to enable it.

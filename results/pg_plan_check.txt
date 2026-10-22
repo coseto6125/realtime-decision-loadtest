@@ -1,0 +1,18 @@
+== av_default
+tps = 399.539782 (without initial connection time)
+    relname    | seq_scan | seq_tup_read | idx_scan | n_live_tup | analyzed | autoanalyze_count 
+---------------+----------+--------------+----------+------------+----------+-------------------
+ decisions     |    32213 |    190190360 |    15694 |      11976 | f        |                 0
+ next_day_jobs |        5 |            0 |        0 |      11976 | f        |                 0
+ outbox        |        6 |            0 |        0 |      11976 | f        |                 0
+(3 rows)
+
+== av_tuned
+tps = 1437.653531 (without initial connection time)
+    relname    | seq_scan | seq_tup_read | idx_scan | n_live_tup | analyzed | autoanalyze_count 
+---------------+----------+--------------+----------+------------+----------+-------------------
+ decisions     |    19384 |     61583974 |   153161 |      43127 | t        |                 2
+ next_day_jobs |        5 |            0 |        0 |      43173 | t        |                 2
+ outbox        |        6 |            0 |        0 |      43258 | t        |                 2
+(3 rows)
+

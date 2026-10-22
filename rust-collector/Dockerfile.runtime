@@ -1,0 +1,11 @@
+# Runtime-only image for a binary built outside docker build. On the shared load host the builder stage
+# of ./Dockerfile ran as container lt-rust-build pinned to core 2 (docker build cannot pin CPUs):
+#   docker run --rm --name lt-rust-build --cpuset-cpus 2 -v "$PWD":/src -v lt-cargo:/usr/local/cargo/registry \
+#     -w /src rust:1.97.1-slim-bookworm cargo build --release --locked
+#   docker build -f Dockerfile.runtime -t lt-collector-rs:1 target/release
+FROM gcr.io/distroless/cc-debian12:nonroot
+COPY lt-collector-rs /usr/local/bin/lt-collector-rs
+ENV PORT=8000
+EXPOSE 8000
+USER nonroot
+ENTRYPOINT ["/usr/local/bin/lt-collector-rs"]

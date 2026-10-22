@@ -1,0 +1,17 @@
+# Commandstats
+cmdstat_ping:calls=15,usec=15,usec_per_call=1.00,rejected_calls=0,failed_calls=0
+cmdstat_zrangebyscore:calls=62,usec=258,usec_per_call=4.16,rejected_calls=0,failed_calls=0
+cmdstat_xreadgroup:calls=31,usec=277,usec_per_call=8.94,rejected_calls=0,failed_calls=0
+cmdstat_config|resetstat:calls=1,usec=107,usec_per_call=107.00,rejected_calls=0,failed_calls=0
+cmdstat_xlen:calls=6,usec=2,usec_per_call=0.33,rejected_calls=0,failed_calls=0
+cmdstat_xinfo|groups:calls=6,usec=34,usec_per_call=5.67,rejected_calls=0,failed_calls=0
+cmdstat_xautoclaim:calls=6,usec=100,usec_per_call=16.67,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=6,usec=181,usec_per_call=30.17,rejected_calls=0,failed_calls=0
+cmdstat_zcard:calls=62,usec=57,usec_per_call=0.92,rejected_calls=0,failed_calls=0
+used_memory:1262296
+used_memory_rss:9555968
+mem_fragmentation_ratio:7.68
+## SLOWLOG
+
+## LATENCY DOCTOR
+No latency spike was observed during the lifetime of this Valkey instance, not in the slightest bit.

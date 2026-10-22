@@ -1,0 +1,59 @@
+{
+ "run": "t4_stress-1790963538",
+ "profile": "stress",
+ "duration_s": 298.9,
+ "client_latency_ms": {
+  "events": {
+   "count": 33391,
+   "avg": 2.18,
+   "p50": 1.16,
+   "p95": 5.53,
+   "p99": 23.88,
+   "max": 136.53
+  },
+  "decide": {
+   "count": 32579,
+   "avg": 23.93,
+   "p50": 5.33,
+   "p95": 92.28,
+   "p99": 152.52,
+   "max": 254.21
+  },
+  "webhook": {
+   "count": 2550,
+   "avg": 7.86,
+   "p50": 6.28,
+   "p95": 15.41,
+   "p99": 36.97,
+   "max": 99.19
+  }
+ },
+ "error_pct": {
+  "events": 1.65,
+  "decide": 0.503,
+  "webhook": 0,
+  "any": 1.043
+ },
+ "counts": {
+  "iterations": 9625,
+  "dropped_iterations": 759,
+  "events_sent": 293583,
+  "events_lost": 0,
+  "events_retried": 4518,
+  "decisions": 32579,
+  "webhooks": 2550,
+  "bad_sig_sent": 0,
+  "bad_sig_rejected": 0,
+  "webhook_duplicate_replies": 0,
+  "forged_recharges": 0,
+  "http_reqs": 68520
+ },
+ "rates_per_s": {
+  "events": 982.2,
+  "decisions": 109,
+  "http_reqs": 229.2
+ },
+ "thresholds_failed": [
+  "err_any"
+ ]
+}
